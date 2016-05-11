@@ -1,8 +1,6 @@
 define(function(require) {
 'use strict';
 
-var AccessibilityHelper = require('shared/js/accessibility_helper');
-
 /**
  * Abstraction for handling the Tabs links at the bottom of the UI.
  * @param {HTMLElement} element The containing element for the Tabs UI.
@@ -18,7 +16,11 @@ function Tabs(element) {
  * Also emit a 'selected' event with the relevant data.
  */
 Tabs.prototype.handleEvent = function tabsHandleEvent(event) {
-  AccessibilityHelper.setAriaSelected(event.target, this.links);
+  // In case tabs is a NodeList, that does not have forEach.
+  Array.prototype.forEach.call(this.links, function setAriaSelectedAttr(tab) {
+    tab.setAttribute('aria-selected',
+      tab === event.target ? 'true' : 'false');
+  });
 };
 
 

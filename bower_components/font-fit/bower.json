@@ -1,0 +1,17 @@
+{
+  "name": "font-fit",
+  "main": "font-fit.js",
+  "authors": [
+    "Wilson Page <wilsonpage@me.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "README.md",
+    "index.html",
+    "package.json"
+  ]
+}

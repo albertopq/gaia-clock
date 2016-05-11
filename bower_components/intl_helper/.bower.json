@@ -1,0 +1,14 @@
+{
+  "name": "intl_helper",
+  "_cacheHeaders": {
+    "ETag": "\"4d7a9500d8a78ffe6f85eee01852ebf7ef8ba8bc\"",
+    "Content-Length": "1578",
+    "Content-Type": "text/plain; charset=utf-8"
+  },
+  "_release": "e-tag:4d7a9500d",
+  "main": "index.js",
+  "_source": "https://raw.githubusercontent.com/mozilla-b2g/gaia/master/shared/js/intl_helper.js",
+  "_target": "*",
+  "_originalSource": "https://raw.githubusercontent.com/mozilla-b2g/gaia/master/shared/js/intl_helper.js",
+  "_direct": true
+}

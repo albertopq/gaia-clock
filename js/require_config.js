@@ -7,20 +7,17 @@ requirejs.config({
   // ringing screen, and we absolutely do not want that to time out.
   waitSeconds: 7,
   paths: {
-    shared: '../shared'
+    shared: '../bower_components'
   },
   shim: {
-    'shared/js/template': {
+    'shared/template/index': {
       exports: 'Template'
     },
-    'shared/js/gesture_detector': {
+    'shared/gesture_detector/index': {
       exports: 'GestureDetector'
     },
-    'shared/js/async_storage': {
+    'shared/localforage/dist/localforage': {
       exports: 'asyncStorage'
-    },
-    'shared/js/accessibility_helper': {
-      exports: 'AccessibilityHelper'
     }
   }
 });

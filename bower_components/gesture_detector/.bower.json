@@ -1,0 +1,14 @@
+{
+  "name": "gesture_detector",
+  "_cacheHeaders": {
+    "ETag": "\"64a488c55026108b9aed8938f0ed861292e97c02\"",
+    "Content-Length": "6730",
+    "Content-Type": "text/plain; charset=utf-8"
+  },
+  "_release": "e-tag:64a488c55",
+  "main": "index.js",
+  "_source": "https://raw.githubusercontent.com/mozilla-b2g/gaia/master/shared/js/gesture_detector.js",
+  "_target": "*",
+  "_originalSource": "https://raw.githubusercontent.com/mozilla-b2g/gaia/master/shared/js/gesture_detector.js",
+  "_direct": true
+}

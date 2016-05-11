@@ -1,0 +1,40 @@
+{
+  "name": "gaia-switch",
+  "homepage": "https://github.com/gaia-components/gaia-switch",
+  "authors": [
+    "Wilson Page <wilsonpage@me.com>"
+  ],
+  "main": "gaia-switch.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "index.html",
+    "package.json",
+    "README.md"
+  ],
+  "devDependencies": {
+    "base": "gaia-components/base",
+    "gaia-fonts": "gaia-components/gaia-fonts",
+    "gaia-list": "gaia-components/gaia-list",
+    "gaia-theme": "gaia-components/gaia-theme"
+  },
+  "dependencies": {
+    "drag": "gaia-components/drag#~0.2.0",
+    "gaia-component": "gaia-components/gaia-component#~0.4.0"
+  },
+  "version": "0.2.2",
+  "_release": "0.2.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.2",
+    "commit": "223eed709e924115bc081d9efa0dcfb2fed21053"
+  },
+  "_source": "git://github.com/fxos-components/gaia-switch.git",
+  "_target": "^0.2.2",
+  "_originalSource": "fxos-components/gaia-switch",
+  "_direct": true
+}

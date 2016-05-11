@@ -1,7 +1,7 @@
 define(function(require) {
 'use strict';
 
-var asyncStorage = require('shared/js/async_storage');
+var asyncStorage = require('shared/localforage/dist/localforage');
 var Utils = require('utils');
 
 var timerPrivate = new WeakMap();

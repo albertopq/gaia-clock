@@ -1,0 +1,14 @@
+{
+  "name": "template",
+  "_cacheHeaders": {
+    "ETag": "\"32f20bedcc574d89a1cfec15e8d63cdbf7f1747f\"",
+    "Content-Length": "2013",
+    "Content-Type": "text/plain; charset=utf-8"
+  },
+  "_release": "e-tag:32f20bedc",
+  "main": "index.js",
+  "_source": "https://raw.githubusercontent.com/mozilla-b2g/gaia/master/shared/js/template.js",
+  "_target": "*",
+  "_originalSource": "https://raw.githubusercontent.com/mozilla-b2g/gaia/master/shared/js/template.js",
+  "_direct": true
+}

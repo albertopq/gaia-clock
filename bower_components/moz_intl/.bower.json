@@ -1,0 +1,14 @@
+{
+  "name": "moz_intl",
+  "_cacheHeaders": {
+    "ETag": "\"842d8cf248b039e06d2dfc27a52d111368a84ccd\"",
+    "Content-Length": "4551",
+    "Content-Type": "text/plain; charset=utf-8"
+  },
+  "_release": "e-tag:842d8cf24",
+  "main": "index.js",
+  "_source": "https://raw.githubusercontent.com/mozilla-b2g/gaia/master/shared/js/moz_intl.js",
+  "_target": "*",
+  "_originalSource": "https://raw.githubusercontent.com/mozilla-b2g/gaia/master/shared/js/moz_intl.js",
+  "_direct": true
+}

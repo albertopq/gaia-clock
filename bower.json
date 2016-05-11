@@ -1,0 +1,26 @@
+{
+  "name": "Clock",
+  "version": "0.0.0",
+  "homepage": "https://github.com/albertopq/gaia-clock",
+  "authors": [
+    "Mozilla"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "gaia-component": "fxos-components/gaia-component",
+    "gaia-header": "fxos-components/gaia-header#~0.9.5",
+    "gaia-theme": "fxos-components/gaia-theme#~0.4.6",
+    "gaia-icons": "fxos-components/gaia-icons#1.0.2",
+    "gaia-button": "fxos-components/gaia-button",
+    "gaia-switch": "fxos-components/gaia-switch#^0.2.2",
+    "l20n": "^3.5.1",
+    "localforage": "^1.4.1",
+    "intl_helper": "https://raw.githubusercontent.com/mozilla-b2g/gaia/master/shared/js/intl_helper.js",
+    "template": "https://raw.githubusercontent.com/mozilla-b2g/gaia/master/shared/js/template.js",
+    "moz_intl": "https://raw.githubusercontent.com/mozilla-b2g/gaia/master/shared/js/moz_intl.js",
+    "gesture_detector": "https://raw.githubusercontent.com/mozilla-b2g/gaia/master/shared/js/gesture_detector.js"
+  },
+  "resolutions": {
+    "gaia-component": "~0.4.0"
+  }
+}
