@@ -40,13 +40,13 @@
     }
   },
   "default_locale": "en-US",
-  "icons": {
+  "icons": [
     {"src": "/gaia-clock/style/icons/clock_84.png"},
     {"src": "/gaia-clock/style/icons/clock_126.png"},
     {"src": "/gaia-clock/style/icons/clock_142.png"},
     {"src": "/gaia-clock/style/icons/clock_189.png"},
     {"src": "/gaia-clock/style/icons/clock_284.png"}
-  },
+  ],
   "orientation": "default",
   "connections": {
     "gaia_alarm": {
