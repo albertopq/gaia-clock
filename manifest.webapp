@@ -8,16 +8,18 @@
     "url": "https://github.com/mozilla-b2g/gaia"
   },
   "permissions": {
-    "themeable":{},
-    "alarms":{},
-    "settings":{ "access": "readwrite" },
-    "attention":{},
-    "audio-channel-alarm":{},
-    "moz-extremely-unstable-and-will-change-webcomponents":{}
+    "themeable": {},
+    "alarms": {},
+    "settings": {
+      "access": "readwrite"
+    },
+    "attention": {},
+    "audio-channel-alarm": {},
+    "moz-extremely-unstable-and-will-change-webcomponents": {}
   },
   "datastores-owned": {
     "alarms": {
-      "access" : "readwrite",
+      "access": "readwrite",
       "description": "The alarms data store for the Data Store API."
     }
   },
@@ -41,11 +43,26 @@
   },
   "default_locale": "en-US",
   "icons": [
-    {"src": "/gaia-clock/style/icons/clock_84.png"},
-    {"src": "/gaia-clock/style/icons/clock_126.png"},
-    {"src": "/gaia-clock/style/icons/clock_142.png"},
-    {"src": "/gaia-clock/style/icons/clock_189.png"},
-    {"src": "/gaia-clock/style/icons/clock_284.png"}
+    {
+      "src": "/gaia-clock/style/icons/clock_84.png",
+      "sizes": "84x84"
+    },
+    {
+      "src": "/gaia-clock/style/icons/clock_126.png",
+      "sizes": "126x126"
+    },
+    {
+      "src": "/gaia-clock/style/icons/clock_142.png",
+      "sizes": "142x142"
+    },
+    {
+      "src": "/gaia-clock/style/icons/clock_189.png",
+      "sizes": "189x189"
+    },
+    {
+      "src": "/gaia-clock/style/icons/clock_284.png",
+      "sizes": "284x284"
+    }
   ],
   "orientation": "default",
   "connections": {
@@ -53,18 +70,24 @@
       "handler_path": "/index.html",
       "description": "Create alarm",
       "rules": {
-        "manifestURLs": ["app://vaani.gaiamobile.org/manifest.webapp"]
+        "manifestURLs": [
+          "app://vaani.gaiamobile.org/manifest.webapp"
+        ]
       }
     },
     "gaia_timer": {
       "handler_path": "/index.html",
       "description": "Create, pause, start and cancel Timer",
       "rules": {
-        "manifestURLs": ["app://vaani.gaiamobile.org/manifest.webapp"]
+        "manifestURLs": [
+          "app://vaani.gaiamobile.org/manifest.webapp"
+        ]
       }
     }
   },
   "messages": [
-     { "alarm": "/index.html" }
+    {
+      "alarm": "/index.html"
+    }
   ]
 }
